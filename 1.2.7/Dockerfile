@@ -86,7 +86,7 @@ RUN \
     apt-get install python python-jinja2 python-ipy python-netifaces python-requests keepalived=$KA_PKG_VRS -y && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
+RUN apt-get curl
 # Prepare various directories in /ka-data/
 RUN \
     mkdir -p /ka-data/ && \
