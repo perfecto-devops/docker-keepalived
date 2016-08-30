@@ -25,4 +25,3 @@ if not request.status_code == 200:
     exit(1) # The request failed as the request did not return a 200
 
 exit(0) # The request succeeded
-Contact GitHub API Training Shop Blog About
